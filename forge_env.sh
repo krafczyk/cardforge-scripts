@@ -17,7 +17,3 @@ validate_variable() {
 }
 
 validate_variable "JAVA_HOME" "/usr/lib/jvm/java-17-openjdk/"
-validate_variable "ANDROID_SDK_ROOT" "${FORGE_PROJECT_ROOT}/Android/Sdk"
-
-export PATH="${FORGE_PROJECT_ROOT}/apache-maven-3.8.1/bin:$PATH"
-mvn --version
